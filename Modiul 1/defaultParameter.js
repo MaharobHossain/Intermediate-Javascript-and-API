@@ -15,3 +15,4 @@ const sum = 'The sum of num ' + a + ' and ' + b + ' is ' + (a+b);
 console.log(sum);
 const calculation = `The sum of num ${a} and ${b} is ${a + b}`;
 console.log(calculation);
+
