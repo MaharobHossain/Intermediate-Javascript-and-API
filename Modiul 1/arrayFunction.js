@@ -16,3 +16,12 @@ console.log(third);
 // no parameter
 const getPI = () => Math.PI
 console.log(getPI());
+
+// large arrow function
+const doMath = (x, y, z) => {
+    const sum = x + y + z;
+    const mult = x * y * z;
+    const result = sum + mult;
+    return result;
+}
+console.log(doMath);
